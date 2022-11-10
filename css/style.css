@@ -9703,3 +9703,57 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.banner-div {
+  width: 100%;
+  height: 335px;
+  background-image: url(/img/bg/creative-tropical-frame-of-palm-and-monstera-leaves-on-white.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 575px) {
+  .banner-div {
+    max-height: 250px;
+  }
+}
+
+
+.banner-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(249, 163, 146, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-div .banner-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-div .banner-header h4 {
+  padding: 20px;
+}
+
+.content-div h2 {
+  
+}
+
+.content-div .bg-contact-form {
+  border-radius: 12px;
+  background-color: rgb(249, 163, 146, 0.1);
+}
+
+.container-fluid iframe {
+  width: 100%;
+}
