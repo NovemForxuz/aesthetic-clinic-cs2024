@@ -56,13 +56,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Prata', serif;
+  font-family: serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #757575;
   text-align: left;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -153,13 +153,13 @@ sup {
 }
 
 a {
-  color: #F9A392;
+  color: #507882;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #f56649;
+  color: #2797b3;
   text-decoration: underline;
 }
 
@@ -2380,7 +2380,7 @@ fieldset:disabled a.btn {
   color: #212529;
   background-color: #507882;
   border-color: #507882;
-  box-shadow: 0 0 0 0.2rem rgba(217, 144, 130, 0.5);
+  /* box-shadow: 0 0 0 0.2rem rgba(217, 144, 130, 0.5); */
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -6095,7 +6095,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #F9A392 !important;
+  background-color: #507882 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6165,7 +6165,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #211E1C !important;
+  background-color: #d8f0f0 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6223,7 +6223,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #F9A392 !important;
+  border-color: #507882 !important;
 }
 
 .border-secondary {
@@ -9673,20 +9673,20 @@ h6,
   width: 25px;
   height: 25px;
   background: #FEF1EF;
-  border: 1px solid #F9A392;
+  border: 1px solid #507882;
   transition: .5s;
 }
 
 .testimonial-carousel .owl-dot.active {
   width: 50px;
-  background: #F9A392;
+  background: #507882;
 }
 
-.footer p,
+/* .footer p,
 .footer a,
 .footer i {
   color: #CCCCCC !important;
-}
+} */
 
 .footer .btn-primary i {
   color: #FFFFFF !important;
