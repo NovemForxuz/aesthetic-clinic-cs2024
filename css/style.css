@@ -60,7 +60,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #757575;
+  /* color: #757575; */
   text-align: left;
   background-color: #ffffff;
 }
@@ -153,7 +153,7 @@ sup {
 }
 
 a {
-  color: #25a0c9;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 1200px) {
@@ -925,6 +925,10 @@ pre code {
   .col-sm-6 {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .col-sm-61 {
+    flex: 0 0 50%;
+    max-width: 30%;
   }
   .col-sm-7 {
     flex: 0 0 58.33333%;
