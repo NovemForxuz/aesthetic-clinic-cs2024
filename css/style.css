@@ -6189,6 +6189,10 @@ button.bg-danger:focus {
   background-color: rgba(216, 240, 240, 1) !important;
 }
 
+.bg-light-transparent {
+  background-color: rgba(216, 240, 240, 0.5) !important;
+}
+
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
@@ -9639,6 +9643,11 @@ h6,
 
 .bg-appointment {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/Hydrafacial-Treatment.jpeg), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-facial {
+  background: url(../img/bg/blue-facial-bg.png), no-repeat center center;
   background-size: cover;
 }
 
