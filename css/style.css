@@ -9756,7 +9756,11 @@ h6,
     max-height: 250px;
   }
 }
-
+@media (min-width: 992px) {
+  .banner-div {
+    margin-top: 124px;
+  }
+}
 
 .banner-overlay {
   width: 100%;
@@ -9766,6 +9770,8 @@ h6,
   top: 0;
   left: 0;
 }
+
+
 
 .banner-div .banner-header {
   display: flex;
