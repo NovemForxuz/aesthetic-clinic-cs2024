@@ -9655,6 +9655,11 @@ h6,
   background-size: cover;
 }
 
+.bg-facial-left {
+  background: url(../img/blue-facial-bg-2.png), no-repeat center center;
+  background-size: cover;
+}
+
 .bg-crystal-collagen-facial {
   background: url(../img/crystal-collagen-facial-bg.png), no-repeat center center;
   background-size: cover;
