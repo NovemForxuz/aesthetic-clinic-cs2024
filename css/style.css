@@ -9651,6 +9651,21 @@ h6,
   background-size: cover;
 }
 
+.bg-crystal-collagen-facial {
+  background: url(../img/crystal-collagen-facial-bg.png), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-cool-sculpt {
+  background: url(../img/cool-sculpt-bg.png), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-dermafiller {
+  background: url(../img/dermafiller-bg.png), no-repeat center center;
+  background-size: cover;
+}
+
 .bg-pricing {
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-2.jpg), no-repeat center center;
   background-size: cover;
