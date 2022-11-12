@@ -6185,12 +6185,16 @@ button.bg-danger:focus {
   background-color: #ffffff !important;
 }
 
+.bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
 .bg-light {
   background-color: rgba(216, 240, 240, 1) !important;
 }
 
 .bg-light-transparent {
-  background-color: rgba(216, 240, 240, 0.5) !important;
+  background-color: rgba(216, 240, 240, 0.8) !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9648,6 +9652,21 @@ h6,
 
 .bg-facial {
   background: url(../img/blue-facial-bg.png), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-crystal-collagen-facial {
+  background: url(../img/crystal-collagen-facial-bg.png), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-cool-sculpt {
+  background: url(../img/cool-sculpt-bg.png), no-repeat center center;
+  background-size: cover;
+}
+
+.bg-dermafiller {
+  background: url(../img/dermafiller-bg.png), no-repeat center center;
   background-size: cover;
 }
 
