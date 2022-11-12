@@ -926,6 +926,10 @@
       flex: 0 0 50%;
       max-width: 30%;
     }
+    .col-sm-61 {
+      flex: 0 0 50%;
+      max-width: 35%;
+    }
     .col-sm-7 {
       flex: 0 0 58.33333%;
       max-width: 58.33333%;
@@ -1257,6 +1261,9 @@
     .col-lg-6 {
       flex: 0 0 50%;
       max-width: 50%;
+    }
+    .col-lg-61 {
+      max-width: 65%;
     }
     .col-lg-7 {
       flex: 0 0 58.33333%;
@@ -8680,6 +8687,9 @@
     .p-lg-5 {
       padding: 3rem !important;
     }
+    .p-lg-51 {
+      padding-right: 3rem !important;
+    }
     .pt-lg-5,
     .py-lg-5 {
       padding-top: 3rem !important;
@@ -9294,6 +9304,10 @@
   .text-primary {
     color: #25a0c9 !important;
   }
+
+  .text-label {
+    color: #429ad9 !important;
+  }
   
   a.text-primary:hover, a.text-primary:focus {
     color: #f56649 !important;
@@ -9648,7 +9662,7 @@
     .hours-text,
     .pricing-text,
     .contact-form {
-      margin-left: -120px;
+      margin-left: 0px;
     }
   }
   
@@ -10743,5 +10757,3 @@
     padding:1rem 0;
     width: 300px;
   }
-  
-  
