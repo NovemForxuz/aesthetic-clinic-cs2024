@@ -10132,12 +10132,20 @@ h6,
   border-radius: .5rem; */
 }
 
+.packages .box-container .box .content.active {
+  background-color: #fff;
+}
+
 .packages .box-container .box .content:hover {
   background: #25a0c92a;
 }
 
 .packages .box-container .box .content:hover > * {
   color: #fff;
+}
+
+.packages .box-container .box .content:hover .btn {
+  background-color: #25a0c9;
 }
 
 .packages .box-container .box .content:hover .btn  {
@@ -10172,10 +10180,6 @@ h6,
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: .5rem;
-}
-
-.packages .box-container .box .content.active {
-  background-color: #fff;
 }
 
 .packages .box-container .box .content h3 {
