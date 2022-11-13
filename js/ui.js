@@ -21,13 +21,24 @@ function toggleService(evt) {
     })
 }
 
-$('.dot').click(function () {
+$('.for-ladies .dot').click(function () {
     let dotNum = ''
-    $('.dot').children().hide()
+    $('.for-ladies .dot').children().hide()
     $(this).children().show()
     dotNum = this.classList[1]
     console.log(dotNum)
     // console.log($(this).children())
-    $('.desc-content-div').hide()
-    $(`.desc-content-div.${dotNum}`).show()
+    $('.for-ladies .desc-content-div').hide()
+    $(`.for-ladies .desc-content-div.${dotNum}`).show()
+});
+
+$('.for-men .dot').click(function () {
+    let dotNum = ''
+    $('.for-men .dot').children().hide()
+    $(this).children().show()
+    dotNum = this.classList[1]
+    console.log(dotNum)
+    // console.log($(this).children())
+    $('.for-men .desc-content-div').hide()
+    $(`.for-men .desc-content-div.${dotNum}`).show()
 });

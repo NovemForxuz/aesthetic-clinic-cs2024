@@ -11017,7 +11017,7 @@ span.divider {
 }
 
 .services-div .img-outer-div {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 
@@ -11155,10 +11155,17 @@ span.divider {
   height: 540px;
   position: absolute;
   top: 0;
-  left: 0;
+  /* left: 0; */
   width: 38%;
   height: 100%;
   display: table;
+}
+
+@media (min-width: 992px) {
+  .services-div .for-men .desc-div {
+    top: 0;
+    right: -30px !important;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -11190,6 +11197,7 @@ span.divider {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
+  box-shadow: 0 0 0 0.2rem #f5b702;
  }
 
 .services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
@@ -11201,7 +11209,9 @@ span.divider {
 .services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
 .services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
 .services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div,
-.services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div {
+.services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
   display: none;
   background-color: #f5b702;
 }
@@ -11266,6 +11276,7 @@ span.divider {
     left: -141px;
     height: 140px;
   }
+  
   .services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
   .services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
   .services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
@@ -11280,10 +11291,122 @@ span.divider {
     left: -101px;
     height: 200px;
   }
-  .services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
-  .services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div {
+    left: -101px;
+    height: 150px;
+  }
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div {
+    left: -101px;
+    height: 150px;
+  }
   .services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
     left: -101px;
     height: 150px;
   }
+}
+
+/* ================ for men ================ */
+
+.services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+  display: none;
+  background-color: #f5b702;
+}
+
+.services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .line-div {
+  position: absolute;
+  top: 4px;
+  right: -201px;
+  width: 200px;
+  height: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .line-div {
+    right: -141px;
+    width: 140px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .line-div {
+    right: -101px;
+    width: 100px;
+  }
+}
+
+.services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .second-line-div {
+  position: absolute;
+  top: 4px;
+  right: -201px;
+  height: 100px;
+  width: 2px;
+}
+.services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+  position: absolute;
+  top: 4px;
+  right: -201px;
+  height: 50px;
+  width: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .second-line-div {
+    right: -141px;
+    height: 140px;
+  }
+  .services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+    right: -101px;
+    height: 100px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .second-line-div {
+    right: -101px;
+    height: 200px;
+  }
+  .services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+    right: -101px;
+    height: 150px;
+  }
+}
+
+#customised-services {
+  background-image: url(/img/bg/customised-services-bg.webp);
+  background-position: center;
+  background-size: cover;
 }
