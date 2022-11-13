@@ -10750,3 +10750,135 @@ section{
   width: 300px;
 }
 
+#contact-form label,
+#membership-form label {
+  display: block;
+  font-weight: 600;
+}
+
+.bg-member-form-div {
+  background-color: rgba(216, 240, 240, 0.5);
+}
+
+.bg-member-form {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.bg-member-form textarea{
+  max-height: 120px;
+}
+
+.icon-box-circle {
+  width: max-content;
+  height: max-content;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.icon-box-circle i {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box-circle i::before {
+  font-size: 2.5rem;
+}
+
+.icon-box-circle.rel {
+  position: relative;
+}
+
+.icon-box-circle i.abs {
+  position: absolute;
+}
+
+#consultation-icon i.abs#qn {
+  top: 5px;
+  left: 4px;
+  color: #fff;
+}
+
+#consultation-icon i.abs#qn::before {
+  font-size: 1rem !important;
+}
+
+@media (min-width: 991px) {
+  .icon-box-circle i {
+    width: 45px;
+    height: 45px;
+  }
+  #consultation-icon i.abs#qn {
+    top: 10px;
+    left: 8px;
+    color: #fff;
+  }
+}
+
+#discover-member-img {
+  display: block;
+}
+
+#discover-member-img .box-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+#discover-member-img .box-container img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+
+#years-exp {
+  position: absolute;
+  top: -35px;
+  right: 50%;
+  translate: 50% 30%;
+  background-color: #fff;
+}
+
+#years-exp h3::after {
+  content: '+';
+  font-weight: 300 !important;
+}
+
+@media(min-width: 768px) {
+  #discover-member-img {
+    display: flex;
+  }
+  #years-exp {
+    position: absolute;
+    top: -35px;
+    right: 10%;
+    translate: 10% 0;
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 991px) {
+  #discover-member-img .box-container {
+    width: 275px;
+    height: 400px;
+  }
+  #discover-member-img .box-container img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+  }
+  #years-exp {
+    position: absolute;
+    top: -35px;
+    right: -10%;
+    translate: 10% 0;
+    background-color: #fff;
+  }
+}
+
