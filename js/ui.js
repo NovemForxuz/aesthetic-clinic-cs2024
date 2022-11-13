@@ -20,3 +20,14 @@ function toggleService(evt) {
         else { div.style.display = "none" }
     })
 }
+
+$('.dot').click(function () {
+    let dotNum = ''
+    $('.dot').children().hide()
+    $(this).children().show()
+    dotNum = this.classList[1]
+    console.log(dotNum)
+    // console.log($(this).children())
+    $('.desc-content-div').hide()
+    $(`.desc-content-div.${dotNum}`).show()
+});

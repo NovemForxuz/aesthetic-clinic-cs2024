@@ -11004,7 +11004,7 @@ span.divider {
 }
 
 .button-div a {
-  background-color: #FEF1EF;
+  background-color: #FFF;
   color: #25a0c9 !important;
   padding: 10px 20px;
   /* border: 1px solid black; */
@@ -11012,12 +11012,13 @@ span.divider {
 }
 
 .button-div .active a {
-  background-color: #25a0c9;
+  background-color: #f5b702;
   color: #fff !important;
 }
 
 .services-div .img-outer-div {
   overflow: hidden;
+  position: relative;
 }
 
 .services-div .img-div {
@@ -11045,7 +11046,9 @@ span.divider {
   cursor: pointer;
 }
 
-@media (min-width: 992px) {
+.services-div .img-div .dots-div .dot:hover {
+  background-color: #f5b702;
+}
   
 .services-div .for-ladies .img-div .dots-div .dot.no1 {
   top: 37%;
@@ -11096,7 +11099,7 @@ span.divider {
   top: 57%;
   left: 63%;
 }
-}
+
 
 .services-div .for-ladies .img-div .dots-div .dot.no1 {
   top: 37%;
@@ -11158,12 +11161,129 @@ span.divider {
   display: table;
 }
 
+@media (max-width: 1000px) {
+  .services-div .desc-div {
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    top: auto;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .desc-div {
+    height: 70px !important;
+  }
+}
+
 .services-div .desc-div .desc-inner-div {
  display: table-cell;
  vertical-align: middle;
 }
 
+@media (max-width: 1000px) {
+  .services-div .desc-div .desc-inner-div {
+    vertical-align: bottom;
+   }
+}
 
-.services-div .for-ladies .img-div .dots-div .dot.no1 .line-div {
-  border: 1px;
+.services-div .desc-div .desc-inner-div .desc-content-div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+ }
+
+.services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div {
+  display: none;
+  background-color: #f5b702;
+}
+
+.services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .line-div {
+  position: absolute;
+  top: 4px;
+  left: -201px;
+  width: 200px;
+  height: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .line-div {
+    left: -141px;
+    width: 140px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .line-div {
+    left: -101px;
+    width: 100px;
+  }
+}
+
+.services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div {
+  position: absolute;
+  top: 4px;
+  left: -201px;
+  height: 100px;
+  width: 2px;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
+  position: absolute;
+  top: 4px;
+  left: -201px;
+  height: 50px;
+  width: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div {
+    left: -141px;
+    height: 140px;
+  }
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
+    left: -101px;
+    height: 100px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div {
+    left: -101px;
+    height: 200px;
+  }
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
+    left: -101px;
+    height: 150px;
+  }
 }
