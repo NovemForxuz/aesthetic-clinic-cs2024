@@ -11391,17 +11391,17 @@ span.divider {
   }
 }
 @media (max-width: 479px) {
-  .services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
-  .services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
-  .services-div .for-men .img-div .dots-div .dot.no3 .second-line-div {
+  .services-div .for-men .img-div .dots-div .dot.no2 .second-line-div {
     right: -101px;
     height: 200px;
   }
+  .services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .second-line-div,
   .services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
   .services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
   .services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
     right: -101px;
-    height: 150px;
+    height: 130px;
   }
 }
 
