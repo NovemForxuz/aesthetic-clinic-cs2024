@@ -10993,3 +10993,420 @@ span.divider {
   color: #000;
   font-weight: 500;
 }
+
+.services-div {
+  width: 100%;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-div a {
+  background-color: #FFF;
+  color: #25a0c9 !important;
+  padding: 10px 20px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+
+.button-div .active a {
+  background-color: #f5b702;
+  color: #fff !important;
+}
+
+.services-div .img-outer-div {
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.services-div .img-div {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 620px;
+}
+
+.services-div .for-ladies .img-div {
+  max-width: 550px;
+}
+
+/* .services-div .img-div.same-height {
+  height: 540px;
+} */
+
+.services-div .img-div .dots-div .dot {
+  background-color: #25a0c9;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.services-div .img-div .dots-div .dot:hover {
+  background-color: #f5b702;
+}
+  
+.services-div .for-ladies .img-div .dots-div .dot.no1 {
+  top: 37%;
+  left: 38%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no2 {
+  top: 38%;
+  left: 42.5%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no3 {
+  top: 41%;
+  left: 38%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no4 {
+  top: 45%;
+  left: 37.5%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no5 {
+  top: 49%;
+  left: 38%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no6 {
+  top: 54%;
+  left: 38%;
+}
+
+.services-div .for-men .img-div .dots-div .dot.no1 {
+  top: 44%;
+  right: 38%;
+}
+.services-div .for-men .img-div .dots-div .dot.no2 {
+  top: 33%;
+  left: 58%;
+}
+.services-div .for-men .img-div .dots-div .dot.no3 {
+  top: 48%;
+  left: 63%;
+}
+.services-div .for-men .img-div .dots-div .dot.no4 {
+  top: 51%;
+  left: 62.5%;
+}
+.services-div .for-men .img-div .dots-div .dot.no5 {
+  top: 43%;
+  left: 65%;
+}
+.services-div .for-men .img-div .dots-div .dot.no6 {
+  top: 57%;
+  left: 63%;
+}
+
+
+.services-div .for-ladies .img-div .dots-div .dot.no1 {
+  top: 37%;
+  left: 38%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no2 {
+  top: 38%;
+  left: 42.5%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no3 {
+  top: 41%;
+  left: 38%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no4 {
+  top: 45%;
+  left: 37.5%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no5 {
+  top: 49%;
+  left: 38%;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no6 {
+  top: 54%;
+  left: 38%;
+}
+
+.services-div .for-men .img-div .dots-div .dot.no1 {
+  top: 44%;
+  right: 38%;
+}
+.services-div .for-men .img-div .dots-div .dot.no2 {
+  top: 33%;
+  left: 58%;
+}
+.services-div .for-men .img-div .dots-div .dot.no3 {
+  top: 48%;
+  left: 63%;
+}
+.services-div .for-men .img-div .dots-div .dot.no4 {
+  top: 51%;
+  left: 62.5%;
+}
+.services-div .for-men .img-div .dots-div .dot.no5 {
+  top: 43%;
+  left: 65%;
+}
+.services-div .for-men .img-div .dots-div .dot.no6 {
+  top: 57%;
+  left: 63%;
+}
+
+.services-div .desc-div {
+  height: 540px;
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  width: 38%;
+  height: 100%;
+  display: table;
+}
+
+@media (min-width: 992px) {
+  .services-div .for-men .desc-div {
+    top: 0;
+    right: -30px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .services-div .desc-div {
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    top: auto;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .desc-div {
+    height: 70px !important;
+  }
+}
+
+.services-div .desc-div .desc-inner-div {
+ display: table-cell;
+ vertical-align: middle;
+}
+
+@media (max-width: 1000px) {
+  .services-div .desc-div .desc-inner-div {
+    vertical-align: bottom;
+   }
+}
+
+.services-div .desc-div .desc-inner-div .desc-content-div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 0 0.2rem #f5b702;
+ }
+
+.services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
+  display: none;
+  background-color: #f5b702;
+}
+
+.services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .line-div {
+  position: absolute;
+  top: 4px;
+  left: -201px;
+  width: 200px;
+  height: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .line-div {
+    left: -141px;
+    width: 140px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .line-div {
+    left: -101px;
+    width: 100px;
+  }
+}
+
+.services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div {
+  position: absolute;
+  top: 4px;
+  left: -201px;
+  height: 100px;
+  width: 2px;
+}
+.services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
+  position: absolute;
+  top: 4px;
+  left: -201px;
+  height: 50px;
+  width: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div {
+    left: -141px;
+    height: 140px;
+  }
+  
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
+    left: -101px;
+    height: 100px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-ladies .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no2 .second-line-div,
+  .services-div .for-ladies .img-div .dots-div .dot.no3 .second-line-div {
+    left: -101px;
+    height: 200px;
+  }
+  .services-div .for-ladies .img-div .dots-div .dot.no4 .second-line-div {
+    left: -101px;
+    height: 150px;
+  }
+  .services-div .for-ladies .img-div .dots-div .dot.no5 .second-line-div {
+    left: -101px;
+    height: 150px;
+  }
+  .services-div .for-ladies .img-div .dots-div .dot.no6 .second-line-div {
+    left: -101px;
+    height: 150px;
+  }
+}
+
+/* ================ for men ================ */
+
+.services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+  display: none;
+  background-color: #f5b702;
+}
+
+.services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .line-div {
+  position: absolute;
+  top: 4px;
+  right: -201px;
+  width: 200px;
+  height: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .line-div {
+    right: -141px;
+    width: 140px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-men .img-div .dots-div .dot.no1 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no2 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no4 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .line-div {
+    right: -101px;
+    width: 100px;
+  }
+}
+
+.services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no3 .second-line-div {
+  position: absolute;
+  top: 4px;
+  right: -201px;
+  height: 100px;
+  width: 2px;
+}
+.services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+.services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+  position: absolute;
+  top: 4px;
+  right: -201px;
+  height: 50px;
+  width: 2px;
+}
+@media (max-width: 1000px) {
+  .services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no2 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .second-line-div {
+    right: -141px;
+    height: 140px;
+  }
+  .services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+    right: -101px;
+    height: 100px;
+  }
+}
+@media (max-width: 479px) {
+  .services-div .for-men .img-div .dots-div .dot.no2 .second-line-div {
+    right: -101px;
+    height: 200px;
+  }
+  .services-div .for-men .img-div .dots-div .dot.no1 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no3 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no4 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no5 .second-line-div,
+  .services-div .for-men .img-div .dots-div .dot.no6 .second-line-div {
+    right: -101px;
+    height: 130px;
+  }
+}
+
+#customised-services {
+  background-image: url(/img/bg/customised-services-bg.webp);
+  background-position: center;
+  background-size: cover;
+}
