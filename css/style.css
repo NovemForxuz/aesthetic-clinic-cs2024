@@ -9746,6 +9746,12 @@ h6,
   transition: .5s;
 }
 
+#membership-testimonial .testimonial-carousel .owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .testimonial-carousel .owl-dot.active {
   width: 16px;
   background: #25a0c9;
@@ -9797,7 +9803,11 @@ h6,
     max-height: 250px;
   }
 }
-
+@media (min-width: 992px) {
+  .banner-div {
+    margin-top: 124px;
+  }
+}
 
 .banner-overlay {
   width: 100%;
@@ -9807,6 +9817,8 @@ h6,
   top: 0;
   left: 0;
 }
+
+
 
 .banner-div .banner-header {
   display: flex;
@@ -10102,7 +10114,7 @@ h6,
 }
 
 .packages {
-  background: #eee;
+  background: #fff;
 }
 
 .packages .box-container {
@@ -10115,28 +10127,28 @@ h6,
 
 .packages .box-container .box {
   text-align: center;
-  background: #fff;
+  /* background: #fff;
   border: 0.2rem solid #10221b;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: .5rem;
+  border-radius: .5rem; */
 }
 
-.packages .box-container .box:hover {
+/* .packages .box-container .box:hover {
   background: #10221b;
+} */
+
+.packages .box-container .box .content:hover > * {
+  color: #fff ;
 }
 
-.packages .box-container .box:hover .content > * {
-  color: #fff;
-}
-
-.packages .box-container .box:hover .btn {
+.packages .box-container .box .content:hover .btn {
   border-color: #fff;
 }
 
 .packages .box-container .box:hover .btn:hover {
   background: #fff;
-  color: #10221b;
+  color: #25a0c9;
 }
 
 .packages .box-container .box .image {
@@ -10157,6 +10169,20 @@ h6,
 
 .packages .box-container .box .content {
   padding: 2rem;
+  background-color: #fffffd;
+  /* border: 0.2rem solid #25a0c9 ; */
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 10%);
+}
+
+.packages .box-container .box .content.active {
+  background: #fff ;
+}
+
+.packages .box-container .box .content:hover {
+  background: #25a0c94a ;
 }
 
 .packages .box-container .box .content h3 {
@@ -10172,8 +10198,18 @@ h6,
 }
 
 .packages .box-container .box .content .price {
+  font-size: 3rem;
+  color: #25a0c9;
+}
+
+.packages .box-container .box .content .price::before {
   font-size: 2rem;
-  color: #219150;
+  content: '$';
+}
+
+.packages .box-container .box .content .btn {
+  width: 50%;
+  margin: 3rem auto 0 ;
 }
 
 .services {
@@ -10209,12 +10245,12 @@ h6,
   color: #fff;
 }
 
-.services .box-container .box:hover .btn {
+.services .box-container .box .content:hover .btn {
   border-color: #fff;
   color: #fff;
 }
 
-.services .box-container .box:hover .btn:hover {
+.services .box-container .box .content:hover .btn:hover {
   background: #fff;
   color: #10221b;
 }
@@ -10784,3 +10820,176 @@ section{
   width: 300px;
 }
 
+#contact-form label,
+#membership-form label {
+  display: block;
+  font-weight: 600;
+}
+
+.bg-member-form-div {
+  background-color: rgba(216, 240, 240, 0.5);
+}
+
+.bg-member-form {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.bg-member-form textarea{
+  max-height: 120px;
+}
+
+.icon-box-circle {
+  width: max-content;
+  height: max-content;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.icon-box-circle i {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box-circle i::before {
+  font-size: 2.5rem;
+}
+
+.icon-box-circle.rel {
+  position: relative;
+}
+
+.icon-box-circle i.abs {
+  position: absolute;
+}
+
+#consultation-icon i.abs#qn {
+  top: 5px;
+  left: 4px;
+  color: #fff;
+}
+
+#consultation-icon i.abs#qn::before {
+  font-size: 1rem !important;
+}
+
+@media (min-width: 991px) {
+  .icon-box-circle i {
+    width: 45px;
+    height: 45px;
+  }
+  #consultation-icon i.abs#qn {
+    top: 10px;
+    left: 8px;
+    color: #fff;
+  }
+}
+
+#discover-member-img {
+  display: block;
+}
+
+#discover-member-img .box-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+#discover-member-img .box-container img {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
+
+#years-exp {
+  position: absolute;
+  top: -35px;
+  right: 50%;
+  translate: 50% 30%;
+  background-color: #fff;
+}
+
+#years-exp h3::after {
+  content: '+';
+  font-weight: 300 !important;
+}
+
+@media(min-width: 768px) {
+  #discover-member-img {
+    display: flex;
+  }
+  #years-exp {
+    position: absolute;
+    top: -35px;
+    right: 10%;
+    translate: 10% 0;
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 991px) {
+  #discover-member-img .box-container {
+    width: 275px;
+    height: 400px;
+  }
+  #discover-member-img .box-container img {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+  }
+  #years-exp {
+    position: absolute;
+    top: -35px;
+    right: -10%;
+    translate: 10% 0;
+    background-color: #fff;
+  }
+}
+
+.tier-banner-div {
+  width: 100%;
+  height: 650px;
+  background-image: url(/img/bg/side-view-of-dermatologist-talking-with-patient-in-clinic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tier-banner-div .banner-overlay {
+  background-color: rgba(216, 240, 240, 0.7);
+  
+}
+
+span.divider {
+  width: 100%;
+  height: 1px;
+  border: 1px solid rgba(216, 240, 240, 0.7);
+}
+
+.packages .box-container .box .content .item {
+  width: 100%;
+  color: #6c757d;
+  margin: 0;
+  border-bottom: 1px solid #6c757d3a;
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.packages .box-container .box .content .item:last-child {
+  border-bottom: none;
+}
+
+.packages .box-container .box .content:hover .item {
+  color: #000;
+  font-weight: 500;
+}
