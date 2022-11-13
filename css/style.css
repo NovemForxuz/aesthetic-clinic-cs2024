@@ -10099,7 +10099,7 @@ h6,
 } */
 
 .packages .box-container .box .content:hover > * {
-  color: #211E1C;
+  color: #fff ;
 }
 
 .packages .box-container .box .content:hover .btn {
@@ -10108,7 +10108,7 @@ h6,
 
 .packages .box-container .box:hover .btn:hover {
   background: #fff;
-  color: #10221b;
+  color: #25a0c9;
 }
 
 .packages .box-container .box .image {
