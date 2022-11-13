@@ -10810,7 +10810,7 @@ section{
   width: 300px;
 }
 
-#membership-testimonial .testimonial-carousel .owl-dots {
+.testimonial-carousel .owl-dots {
   display: flex;
   justify-content: center;
   align-items: center;
