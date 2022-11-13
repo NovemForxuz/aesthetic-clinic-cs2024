@@ -5856,7 +5856,6 @@
   
   .carousel {
     position: relative;
-    padding-top: 100px;
   }
   
   .carousel.pointer-event {
@@ -9612,6 +9611,7 @@
     bottom: 0;
     background: rgba(33, 30, 28, 0.7);
     z-index: 1;
+    padding-bottom: 35px;
   }
   
   .service-item img {
@@ -9818,7 +9818,7 @@
   }
   
   .header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
