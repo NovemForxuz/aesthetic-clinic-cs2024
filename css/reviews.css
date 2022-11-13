@@ -928,7 +928,7 @@
     }
     .col-sm-61 {
       flex: 0 0 50%;
-      max-width: 35%;
+      max-width: 30%;
     }
     .col-sm-7 {
       flex: 0 0 58.33333%;
@@ -7629,11 +7629,11 @@
     padding-right: 3rem !important;
   }
   
-  /* .pb-5,
+  .pb-5,
   .py-5 {
     padding-bottom: 3rem !important;
   }
-   */
+  
   .pl-5,
   .px-5 {
     padding-left: 3rem !important;
