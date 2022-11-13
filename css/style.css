@@ -9803,12 +9803,6 @@ h6,
   }
 }
 
-@media (min-width: 992px) {
-  .banner-div {
-    margin-top: 124px;
-  }
-}
-
 .banner-overlay {
   width: 100%;
   height: 100%;
