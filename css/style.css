@@ -10126,13 +10126,13 @@ h6,
 .packages .box-container .box {
   text-align: center;
   background: #fff;
-  border: 0.2rem solid #10221b;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  /* border: 0.2rem solid #10221b; */
+  /* -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: .5rem;
+  border-radius: .5rem; */
 }
 
-.packages .box-container .box:hover {
+.packages .box-container .box .content:hover {
   background: #25a0c92a;
 }
 
@@ -10167,6 +10167,15 @@ h6,
 
 .packages .box-container .box .content {
   padding: 2rem;
+  background-color: #f7f7f7;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+}
+
+.packages .box-container .box .content.active {
+  background-color: #fff;
 }
 
 .packages .box-container .box .content h3 {
