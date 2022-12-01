@@ -14,7 +14,7 @@ Objective: <b>To improve enquires within the next 3 months by 20%<b><br><br>
 ## Dependencies
 - Bootstrap is required (provided in code via CDN script).
 
-## Version Histories
+## Version History
 * 1.0
   * This project was submitted on Nov 2022.
   * This project has been discontinued.
