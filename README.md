@@ -4,7 +4,7 @@ Greetings! This repository exists to archive and document the school project for
 
 This project is for educational purposes and non-commercial usage only.
 
-This project is hosted on github [<img src="/img/favicon.ico" width="15px" height="15px"> Mashu Aesthetics.](https://novemforxuz.github.io/aesthetic-clinic-cs2024/)<br>
+This project is hosted on github. Check out website [<img src="/img/favicon.ico" width="15px" height="15px"> Mashu Aesthetics](https://novemforxuz.github.io/aesthetic-clinic-cs2024/)!<br>
 
 ## Description
 To develop a website for an aesthetic clinic that offers a range of affordable and safe treatments for your face and body in Singapore.
